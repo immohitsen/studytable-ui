@@ -8,14 +8,12 @@ const Header = () => {
         STUDY<strong>table</strong>
       </div>  
       <header
-        className="bg-[#2A2A2A] text-white py-20 px-[10%] flex flex-row justify-between items-center"
+        className="bg-[#2A2A2A] text-white py-20 px-[10%] flex flex-col md:flex-row justify-between items-center"
         style={{ fontFamily: "'Instrument Sans', sans-serif" }}
       >
-        {/* Logo */}
-
         {/* Left Section - Text Content */}
         <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
-          <h1 className="text-[56px] font-semibold leading-tight">
+          <h1 className="text-[36px] md:text-[56px] font-semibold leading-tight">
             Optimize Your Performance For <br />
             <span className="text-gray-300">JEE, NEET, and Boards</span>
           </h1>
@@ -26,7 +24,7 @@ const Header = () => {
             12th (CBSE) and preparing for all medical or engineering entrance
             exams.
           </p>
-          <div className="mt-6 flex gap-4 justify-center md:justify-start">
+          <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center md:justify-start">
             <button className="bg-white text-black px-6 py-2 rounded-md font-semibold hover:bg-gray-200 transition">
               Apply for admission
             </button>
@@ -41,7 +39,7 @@ const Header = () => {
           <img
             src={mask}
             alt="Illustration"
-            className="w-full max-w-md mr-10"
+            className="w-full max-w-md"
             style={{ maxWidth: "70%", height: "auto" }}
           />
         </div>

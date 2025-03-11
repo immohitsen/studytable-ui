@@ -8,15 +8,15 @@ const ContentSection = () => {
     <div>
       {/* Section 1 - Unlimited Practice Session */}
       <section
-        className="bg-white text-black py-12 px-[10%] pt-[20vh] mb-12 w-full flex flex-col items-start"
+        className="bg-white text-black py-12 px-[5%] md:px-[10%] pt-[20vh] mb-12 w-full flex flex-col items-start"
         style={{ fontFamily: "'Instrument Sans', sans-serif" }}
       >
         <div className="md:w-3/4 mb-8 text-left">
-          <h2 className="text-[50px] font-semibold mb-4 pr-10 leading-tight">
+          <h2 className="text-[36px] md:text-[50px] font-semibold mb-4 pr-10 leading-tight">
             <span className="block">Unlimited Practice</span>
             <span className="block">Session</span>
           </h2>
-          <p className="text-[22px] text-gray-600 font-[400] leading-relaxed mb-4 pr-10 w-[85%]">
+          <p className="text-[18px] md:text-[22px] text-gray-600 font-[400] leading-relaxed mb-4 pr-10 md:w-[85%]">
             For topics and subjects you go through in your school and coaching
             every day, we create instant practice sessions specially made for
             your daily needs.&nbsp;
@@ -40,14 +40,14 @@ const ContentSection = () => {
 
       {/* Section 2 - Personalized Assessment */}
       <section
-        className="bg-white text-black py-12 px-[10%] mb-12 flex flex-col items-end w-full"
+        className="bg-white text-black py-12 px-[5%] md:px-[10%] mb-12 flex flex-col items-end w-full"
         style={{ fontFamily: "'Instrument Sans', sans-serif" }}
       >
-        <div className="md:w-3/4 mb-8 md:self-end text-left pl-20">
-          <h2 className="text-[40px] font-[600] mb-4 leading-tight">
+        <div className="md:w-3/4 mb-8 md:self-end text-left md:pl-20">
+          <h2 className="text-[36px] md:text-[40px] font-[600] mb-4 leading-tight">
             Personalized <br /> Assessment
           </h2>
-          <p className="text-[22px] font-[400] leading-relaxed mb-4 text-gray-600 w-[90%]">
+          <p className="text-[18px] md:text-[22px] font-[400] leading-relaxed mb-4 text-gray-600 md:w-[90%]">
             We measure your learning differently. Not just comparing you among
             your classmates and peers, but understanding how much you have
             learned and how much your skills have grown.
@@ -70,14 +70,14 @@ const ContentSection = () => {
 
       {/* Section 3 - Managing Students’ Academic Life */}
       <section
-        className="bg-white text-black py-12 px-[10%] mb-[15vh] w-full flex flex-col items-start"
+        className="bg-white text-black py-12 px-[5%] md:px-[10%] mb-[15vh] w-full flex flex-col items-start"
         style={{ fontFamily: "'Instrument Sans', sans-serif" }}
       >
         <div className="md:w-3/4 mb-8 text-left">
-          <h2 className="text-[40px] font-semibold mb-4 pr-10 leading-tight ">
-            Managing Students <br/>Academic Life
+          <h2 className="text-[36px] md:text-[40px] font-semibold mb-4 pr-10 leading-tight ">
+            Managing Students <br/> Academic Life
           </h2>
-          <p className="text-[22px] text-gray-600 font-[400] leading-relaxed mb-4 pr-10 w-[85%]">
+          <p className="text-[18px] md:text-[22px] text-gray-600 font-[400] leading-relaxed mb-4 pr-10 md:w-[85%]">
             Studying involves more than just practice and tests. To succeed, you
             need a careful revision plan, a clear understanding of your learning
             curve, and a well-aligned study schedule.
